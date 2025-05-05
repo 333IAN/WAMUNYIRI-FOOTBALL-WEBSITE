@@ -76,7 +76,60 @@ The website features:
 
 ### Installation
 
-**Prerequisites** 
+**Prerequisites**
+   - Python 3.8 or higher
+   - pip package manager
+   - Git(optional)
+
+**Setup Instructions**
+
+1. Clone the repository:
+```
+git clone https://github.com/your-username/wamunyiri-fc-website.git
+cd wamunyiri-fc-website
+```
+2. Create a virtual environment:
+```
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+3. Install dependencies
+```
+pip install -r requirements.txt
+```
+4. Set up environment variables:
+Create a .env in the root directory with:
+```
+SECRET_KEY=your_secret_key_here
+```
+5. Initialize the database:
+```
+python
+>>> from app import db, app
+>>> with app.app_context():
+...     db.create_all()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
