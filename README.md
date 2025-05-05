@@ -7,6 +7,9 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScriptES6+](https://img.shields.io/badge/JavaScriptES6+-F7DF1E?logo=javascriptES6+&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
+![Home Page View](/teampage.png)
+
+
 
 
 
