@@ -98,6 +98,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 4. Set up environment variables:
+
 Create a .env in the root directory with:
 ```
 SECRET_KEY=your_secret_key_here
@@ -109,6 +110,41 @@ python
 >>> with app.app_context():
 ...     db.create_all()
 ```
+6. Run the development server:
+```
+python app.py
+```
+7. Access the website:
+Open your browser and visit http://localhost:5000
+
+### Project Structure
+```
+wamunyiri-fc-website/
+├── wamunyiri.py                # Main Flask application
+├── requirements.txt      # Python dependencies
+├── static/               # Static files
+│   ├── Image/            # All images
+│   ├── wamunyiri1.css     # Main stylesheet
+│   └── wamunyiri1.js      # Main JavaScript file
+├── templates/            # HTML templates
+│   └── wamunyiti1.html    # Main template
+├── instance/             # Database files (created at runtime)
+│   └── wamunyiri.db
+└── README.md             # This documentation
+```
+### Configuration
+
+Create a ```.env```
+
+
+
+
+
+
+
+
+
+
 
 
 
