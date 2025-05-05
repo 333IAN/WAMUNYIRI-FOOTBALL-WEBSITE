@@ -27,7 +27,7 @@
   - Contributing
   - License
 
-**Project Overview**
+### Project Overview
 
 Wamunyiri Football Club is a professional football club based in Western, Kenya that competes in regional leagues. This official website showcases the club's history, teams, achievements, and provides a platform for fans to connect with the club.
 The website features:
@@ -37,8 +37,45 @@ The website features:
  - Smooth animations and transitions
  - Modern UI with club branding
 
-**Features**
-### Core Functionality
+### Features
+**Technical Features**
+ - Backend:
+     - Flask web framework
+     - SQLAlchemy ORM for database operations
+     - Form validation and flash messaging
+     - Secure data handling
+  - Frontend:
+     - Modern CSS with Flexbox and Grid
+     - Interactive Javascript elements
+     - Smooth scrolling navigation
+     - Image sliders and responsive video embeds
+     - Form validation
+  - UI/UX:
+      - Consistent color scheme and typography
+      - Animated transitions between sections
+      - Accessibility considerations
+      - Optimized media loading
+
+ ### Technologies Used
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
