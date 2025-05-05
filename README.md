@@ -62,15 +62,21 @@ The website features:
    - Flask 2.0+
    - SQLAlchemy 1.4+
    - SQLite (development database)
+
 **Frontend**
    - HTML5
    - CSS3 (with CSS Variables)
    - JavaScript(ES6+)
    - Font Icons
    - Google Fonts
+
 **Development Tools**
    - VS Code 
-   - Chrome Developer Tools 
+   - Chrome Developer Tools
+
+### Installation
+
+**Prerequisites** 
 
 
 
