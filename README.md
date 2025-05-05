@@ -8,6 +8,16 @@
 [![JavaScriptES6+](https://img.shields.io/badge/JavaScriptES6+-F7DF1E?logo=javascriptES6+&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ![Home Page View](/teampage.png)
+![database view](/contact.png)
+![my team view](/myteam.png)
+![table view](/table.png)
+![view](/view.png)
+![second view](/view1.png)
+
+
+
+
+
 
 
 
