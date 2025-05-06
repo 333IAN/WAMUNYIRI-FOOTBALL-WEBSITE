@@ -127,14 +127,50 @@ wamunyiri-fc-website/
 │   ├── wamunyiri1.css     # Main stylesheet
 │   └── wamunyiri1.js      # Main JavaScript file
 ├── templates/            # HTML templates
-│   └── wamunyiti1.html    # Main template
+│   └── wamunyiri1.html    # Main template
 ├── instance/             # Database files (created at runtime)
 │   └── wamunyiri.db
 └── README.md             # This documentation
 ```
 ### Configuration
 
-Create a ```.env```
+**Environment Variables**
+Create a ```.env```file in the root directory with the following variables:
+```
+SECRET_KEY=your_secret_key_here
+SQLALCHEMY_DATABASE_URI=sqlite:///instance/wamunyiri.db
+```
+**Database Configuration**
+The application uses SQLite by default for development. For production, you may want to configure a more robust database:
+```
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@localhost/wamunyiri'
+```
+
+### Usage
+**Running the application**
+```
+python wamunyiri1.py
+```
+**Available Routes**
+- ```/```-Home page
+- ```/submit```-Contact form submission endpoint(POST only)
+**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
