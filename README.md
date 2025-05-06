@@ -85,13 +85,13 @@ The website features:
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/wamunyiri-fc-website.git
+git clone https://github.com/333IAN/wamunyiri-fc-website.git
 cd wamunyiri-fc-website
 ```
 2. Create a virtual environment:
 ```
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+source venv/bin/activate
 ```
 3. Install dependencies
 ```
@@ -99,7 +99,7 @@ pip install -r requirements.txt
 ```
 4. Set up environment variables:
 
-Create a .env in the root directory with:
+Create a ```.env``` in the root directory with:
 ```
 SECRET_KEY=your_secret_key_here
 ```
@@ -135,12 +135,14 @@ wamunyiri-fc-website/
 ### Configuration🏁
 
 **Environment Variables**
+
 Create a ```.env```file in the root directory with the following variables:
 ```
 SECRET_KEY=your_secret_key_here
 SQLALCHEMY_DATABASE_URI=sqlite:///instance/wamunyiri.db
 ```
 **Database Configuration**
+
 The application uses SQLite by default for development. For production, you may want to configure a more robust database:
 ```
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@localhost/wamunyiri'
