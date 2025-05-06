@@ -37,7 +37,7 @@ The website features:
  - Smooth animations and transitions
  - Modern UI with club branding
 
-### Features
+### Features👩‍💻
 **Technical Features**
  - Backend:
      - Flask web framework
@@ -56,7 +56,7 @@ The website features:
       - Accessibility considerations
       - Optimized media loading
 
- ### Technologies Used
+ ### Technologies Used⚙
 **Backend**
    - Python 3.8+
    - Flask 2.0+
@@ -74,7 +74,7 @@ The website features:
    - VS Code 
    - Chrome Developer Tools
 
-### Installation
+### Installation🏗
 
 **Prerequisites**
    - Python 3.8 or higher
@@ -117,7 +117,7 @@ python app.py
 7. Access the website:
 Open your browser and visit http://localhost:5000
 
-### Project Structure
+### Project Structure📏
 ```
 wamunyiri-fc-website/
 ├── wamunyiri.py                # Main Flask application
@@ -132,7 +132,7 @@ wamunyiri-fc-website/
 │   └── wamunyiri.db
 └── README.md             # This documentation
 ```
-### Configuration
+### Configuration🏁
 
 **Environment Variables**
 Create a ```.env```file in the root directory with the following variables:
@@ -146,7 +146,7 @@ The application uses SQLite by default for development. For production, you may 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@localhost/wamunyiri'
 ```
 
-### Usage
+### Usage👤
 **Running the application**
 ```
 python wamunyiri1.py
@@ -155,7 +155,7 @@ python wamunyiri1.py
 - ```/```-Home page
 - ```/submit```-Contact form submission endpoint(POST only)
 
-### Development
+### Development🏙
 
 **Admin dashboard**
 
@@ -175,9 +175,15 @@ Use scroll-triggered animations for stats, sections, or player cards.
 
 Animate elements with libraries like AOS or ```IntersectionObserver```
 
-### Contributing
+### Contributing📧
 
 Contributions are welcome!Feel free to contact me <a href="https://www.linkedin.com/in/ian-isavwa">here</a>
+
+### License📌
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) for more details
+
+
 
 
 
