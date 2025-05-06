@@ -154,7 +154,35 @@ python wamunyiri1.py
 **Available Routes**
 - ```/```-Home page
 - ```/submit```-Contact form submission endpoint(POST only)
-**
+
+### Development
+**Admin dashboard**
+Create a secure area for updating players, results, or blog posts
+
+**Rest API**
+Implement a simple API to serve fixtures or stats that you can later consume in a mobile app
+
+**Search Functionality**
+Add a search bar to help users find players, posts, or matches
+
+**Animations**
+Use scroll-triggered animations for stats, sections, or player cards.
+
+Animate elements with libraries like AOS or ```IntersectionObserver```
+
+### Contributing
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
