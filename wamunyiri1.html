@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wamunyiri Football Club - Official Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='wamunyiti1.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='Image/favicon.ico') }}" type="image/x-icon">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>WAMUNYIRI FOOTBALL CLUB</h1>
+            <p class="tagline">Passion • Unity • Excellence</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="#teams"><i class="fas fa-users"></i> Teams</a></li>
+                <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="home" class="section fade-in">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='Image/MainTeam.jpg') }}" alt="Wamunyiri FC Logo" class="logo-image">
+                <h2>Welcome to Wamunyiri Football Club</h2>
+            </div>
+            
+            <div class="content">
+                <p>Wamunyiri Football Club is a professional football club based in Western, Kenya, that competes in regional leagues. Founded in 1960, the club's home ground is the Wamunyiri Primary School grounds. We've been playing there since the foundation of the club. Wamunyiri F.C. adopted a red and green jersey, and over the years has won major league trophies.</p>
+                
+                <div class="quick-facts">
+                    <ul>
+                        <li><i class="fas fa-user-tie"></i> Current Manager: Denis</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Stadium: Wamunyiri Primary Field</li>
+                        <li><i class="fas fa-location-arrow"></i> Location: Western, Kenya</li>
+                        <li><i class="fas fa-trophy"></i> Trophies: 5 Regional Championships</li>
+                    </ul>
+                </div>
+                
+                <p>The club is communally owned by the 'Westerners' and financially supported by prominent leaders in the Western Region. Our teams consist of several age groups: Under 14 boys, Under 17 boys, girls team, and the main team. The main team includes villagers, university students, and high school students, while the youth teams nurture future talent.</p>
+            </div>
+        </section>
+
+        <!-- Founder Team Section -->
+        <section id="about" class="section fade-in">
+            <h2><i class="fas fa-history"></i> Our History</h2>
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='Image/original.jpg') }}" alt="Founding Team of Wamunyiri FC">
+                <p class="image-caption">The original squad from 1960 - the foundation of our great club</p>
+            </div>
+            <p>This was one of the earliest pictures of the squad taken during its foundation. It mostly comprised of villagers. After matches, there was a tradition where the winning team could choose to really fight with the opposition - and the opposition also had to lose the fight because they had already lost the game.</p>
+        </section>
+
+        <!-- Current Team Section -->
+        <section id="teams" class="section fade-in">
+            <h2><i class="fas fa-star"></i> Main Squad</h2>
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='Image/MainTeam.jpg') }}" alt="Current Wamunyiri FC Team">
+            </div>
+            <p>Our current senior squad features outstanding players like Oscar 'Mendy' our goalkeeper, along with students like Mike, Sany and Timo, and villagers like Nyonge, Mode and his brother. This team has participated in major tournaments across the Western Region.</p>
+            
+            <h3>Team Officials</h3>
+            <table class="team-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dennis</td>
+                        <td>Head Coach</td>
+                    </tr>
+                    <tr>
+                        <td>Misanya</td>
+                        <td>Team Sponsor</td>
+                    </tr>
+                    <tr>
+                        <td>Mode</td>
+                        <td>Player Coach</td>
+                    </tr>
+                    <tr>
+                        <td>Nyongesa</td>
+                        <td>Team Official</td>
+                    </tr>
+                    <tr>
+                        <td>Mark</td>
+                        <td>Team Doctor</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Prime Team Section -->
+        <section class="section fade-in">
+            <h2><i class="fas fa-crown"></i> Prime Team</h2>
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='Image/Prime.jpg') }}" alt="Wamunyiri FC Prime Team">
+            </div>
+            <p>This was the first squad which brought a feeling of success to the team and the whole community. They played many matches and secured crucial wins, becoming one of the most feared teams during the 2010s era. Most players are now retired but still offer support to the team.</p>
+        </section>
+
+        <!-- Sponsors Section -->
+        <section class="section fade-in">
+            <h2><i class="fas fa-handshake"></i> Our Sponsors</h2>
+            <p>The team benefits from dedicated sponsors who stand by us in thick and thin. They provide training kits, medical equipment, and playing facilities - crucial for the sustainability of the team.</p>
+            
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='Image/Sponsormisanya.jpg') }}" alt="Sponsor Misanya">
+                <img src="{{ url_for('static', filename='Image/Sponsormisanya1.jpg') }}" alt="Sponsor Misanya with team">
+            </div>
+            
+            <p>Misanya has been with the team since the 2010s. She is well respected and loved by everyone in the community. The first image shows Hum, Misanya and Alan - veteran players who were part of the prime team that started an era at the club.</p>
+            
+            <p>Some sponsors also participate in training sessions and matches. Paulo is one of them, having been with the team since its foundation.</p>
+            
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='Image/Paulo.jpg') }}" alt="Sponsor Paulo">
+                <img src="{{ url_for('static', filename='Image/Paulo1.jpg') }}" alt="Sponsor Paulo in training">
+            </div>
+        </section>
+
+        <!-- Academy Section -->
+        <section class="section fade-in">
+            <h2><i class="fas fa-graduation-cap"></i> Academy</h2>
+            <p>We nurture passionate kids from a young age to develop the team's traditions and make it easier to adapt to team tactics. Many have graduated from the academy and succeeded in the main team, like Nyanja. This encourages more children to join as they aspire to follow in their footsteps.</p>
+            
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='Image/Junior.jpg') }}" alt="Junior Team">
+                <img src="{{ url_for('static', filename='Image/Under14.jpg') }}" alt="Under 14 Team">
+            </div>
+            
+            <p>Training is often done together with the main team, which helps the academy players become tough, persistent, and gain experience from our senior players. The kids have competed in many competitions with excellent performances and results, recently finishing second in regional competitions.</p>
+            
+            <p>Nyanja (bottom picture, last line extreme right) has become an important player for the main team. The coach trusts him and utilizes him in various positions due to his versatility and experience.</p>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section fade-in">
+            <h2><i class="fas fa-photo-video"></i> Media Gallery</h2>
+            
+            <h3>Career Day Highlights</h3>
+            <div class="video-container">
+                <video controls>
+                    <source src="{{ url_for('static', filename='Image/Careerday.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p>This video was taken during a career day at the village on 01/12/2024. It was a fierce friendly match that ended in penalties, with the winning team awarded by village leaders. The event also promoted education, hygiene, and respect within the community.</p>
+            
+            <h3>Match Highlights</h3>
+            <div class="video-gallery">
+                <div class="video-container">
+                    <video controls>
+                        <source src="{{ url_for('static', filename='Image/highlight1.mp4') }}" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-container">
+                    <video controls>
+                        <source src="{{ url_for('static', filename='Image/highlight2.mp4') }}" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <p>Highlights from a penalty shootout during the career day event after the teams ended in a draw.</p>
+            
+            <h3>Community Celebrations</h3>
+            <div class="video-container">
+                <video controls>
+                    <source src="{{ url_for('static', filename='Image/audiencesherehe.mp4') }}" type="video/mp4">
+                </video>
+            </div>
+            <p>After the ceremony, a celebration was held to conclude the day's activities. This was taken before the celebrations began.</p>
+            
+            <h3>Tournament Photos</h3>
+            <div class="slider">
+                <div class="slides">
+                    <img src="{{ url_for('static', filename='Image/Current2.jpg') }}" class="slide" alt="Team Photo 1">
+                    <img src="{{ url_for('static', filename='Image/Current1.jpg') }}" class="slide" alt="Team Photo 2">
+                    <img src="{{ url_for('static', filename='Image/Current.jpg') }}" class="slide" alt="Team Photo 3">
+                </div>
+                <div class="slider-nav">
+                    <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <p>Our current team represented Wamunyiri Village in the ward tournament. The team had high hopes but was unfortunately knocked out in a penalty shootout before reaching the final.</p>
+            
+            <h3>Player Spotlights</h3>
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='Image/Jimmy.jpg') }}" alt="Player Jimmy">
+            </div>
+            <p>James (Jimmy), at the far left in the team photos, has been with the team since its early days. A versatile player who contributes in defense, midfield, and attack, he's currently a student at Masinde Muliro University of Science and Technology.</p>
+            
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='Image/Mike1.jpg') }}" alt="Player Mike">
+            </div>
+            <p>Mike (wearing short #8) progressed from our youth team to become our main box-to-box midfielder. He's currently furthering his education at college while playing for the team.</p>
+            
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='Image/sany1.jpg') }}" alt="Player Sany">
+            </div>
+            <p>Sany joined the team at a young age and has been loyal ever since. Despite his size, he's a natural defender - perhaps the most comfortable and composed defender on the ball in the whole team. Coming from a sporting family (his father was a player and now a referee), Sany has also played upfront thanks to his ball control and finishing ability.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section fade-in">
+            <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+            <p>Interested in joining Wamunyiri FC or supporting our team? Fill out the form below and we'll get back to you!</p>
+            
+            <form method="POST" action="/submit" class="contact-form">
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                        {% for category, message in messages %}
+                            <div class="alert alert-{{ category }}">
+                                {{ message }}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
+                
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" class="form-control" placeholder="Enter your age">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" class="form-control" placeholder="Enter your address">
+                </div>
+                
+                <div class="form-group">
+                    <label for="career">Football Career/Interest:</label>
+                    <textarea id="career" name="FOOTBALL CAREER" class="form-control" placeholder="Tell us about your football experience or why you're interested in Wamunyiri FC"></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Submit</button>
+                <button type="reset" class="btn btn-reset">Reset</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Wamunyiri Football Club. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>Designed with <i class="fas fa-heart" style="color: var(--danger-color);"></i> by Wamunyiri FC Tech Team</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="topBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='wamunyiri1.js') }}"></script>
+</body>
+</html>
